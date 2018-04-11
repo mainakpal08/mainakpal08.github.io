@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Klopp saw off Man City and thought Barca collapse was a joke"
-date: 2018-04-11 03:00:00 +0530
+date: 2018-04-12 00:30:00 +0530
 excerpt: Klopp saw off Man City and thought Barca collapse was a joke
 comments: true
 ---
