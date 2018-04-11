@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		{% include head.html %}
+	</head>
+
+	<body>
+		{% include header.html %}
+		<main>
+			<center><h1> Thoughts, <span style="color:grey">Quantized</span></h1></center>
+			<center>by <a href="/"><strong>Sagnik Bhattacharya</strong></center></a>
+			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+		</main>
+		{% include footer.html %}
+	</body>
+</html>
