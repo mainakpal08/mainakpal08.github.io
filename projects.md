@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sagnik | Projects
+title: Mainak | Projects
 ---
 ### Under construction! Revisit soon!
 
