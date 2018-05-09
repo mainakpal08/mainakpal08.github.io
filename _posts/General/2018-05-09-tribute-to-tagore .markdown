@@ -59,4 +59,4 @@ Into that heaven of freedom, my father, let my country awake!!
 
 Here is a fusion A. R. Rahman created with this verse:
 
-<iframe width="100%" height="400px" src="https://www.youtube.com/watch?v=7FKEy_RWwQk&feature=youtu.be" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/7FKEy_RWwQk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
