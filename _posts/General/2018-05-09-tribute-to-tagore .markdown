@@ -31,30 +31,30 @@ Just imagine, what if we could inspire & allow every children to devote to the s
 I can keep writing on and on. But I have my semester exam day after tomorrow.I will finish it with my most favorite lines written by him:
 
  
- "Chitto jetha voi shunno , Uccho jetha shir
-gyan jetha mukto , jetha griher prachir
-apon prangon tole dibos shorbori
-bosudhare rakhe nai khondo khudro kori
-jetha bakko ridoyer utsomukh hote
-ucchosia uthe, jetha nirbarito srote
-deshe deshe dishe dishe kormodhara dhai
-ojosro sohosro bidho choritarthotai ,
-jetha tuccho acharer morubalu rashi
-bicharer sroto poth fele nai grasi
-pourushere kore ni shotodha , nitto jetha
-tumi sorbo kormo chinta anonder neta ,
-nij hoste nirdoi aghat kori pita
+ "Chitto jetha voi shunno , Uccho jetha shir\
+gyan jetha mukto , jetha griher prachir\
+apon prangon tole dibos shorbori\
+bosudhare rakhe nai khondo khudro kori\
+jetha bakko ridoyer utsomukh hote\
+ucchosia uthe, jetha nirbarito srote\
+deshe deshe dishe dishe kormodhara dhai\
+ojosro sohosro bidho choritarthotai,\
+jetha tuccho acharer morubalu rashi\
+bicharer sroto poth fele nai grasi\
+pourushere kore ni shotodha , nitto jetha\
+tumi sorbo kormo chinta anonder neta,\
+nij hoste nirdoi aghat kori pita\
 Bharotere sei sorge koro jagorito"
 
 Tagore’s own translation (English Gitanjali Verse 35):
 
-Where the mind is without fear and the head is held high;
-Where knowledge is free;
-Where the world has not been broken up into fragments by narrow domestic walls;
-Where words come out from the depth of truth;
-Where tireless striving stretches its arms towards perfection;
-Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;
-Where the mind is led forward by thee into ever-widening thought and action
+Where the mind is without fear and the head is held high;\
+Where knowledge is free;\
+Where the world has not been broken up into fragments by narrow domestic walls;\
+Where words come out from the depth of truth;\
+Where tireless striving stretches its arms towards perfection;\
+Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;\
+Where the mind is led forward by thee into ever-widening thought and action\
 Into that heaven of freedom, my father, let my country awake!!
 
 Here is a fusion A. R. Rahman created with this verse:
