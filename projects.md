@@ -7,4 +7,4 @@ title: Mainak | Projects
 Approximating the value of pi using Processing.![This](https://github.com/mpalrocks/Approximate-Pi) is the source code for the program.
 ![Gif](/final_gif.gif)
 ![Here](https://www.youtube.com/watch?v=9_CuOAfGl7I) is the full video.
-This ![article](http://www.physics.ohio-state.edu/%7Eorban/math_coding/pi_graphical/index.html) inspired me a lot.
+This (http://www.physics.ohio-state.edu/%7Eorban/math_coding/pi_graphical/index.html) inspired me a lot.
