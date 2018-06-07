@@ -8,6 +8,7 @@ Approximating the value of pi using Processing.
 ![Gif](/final_gif.gif)
 
 <p>
+
 			   	 <strong><span style="color:black"><a href="https://github.com/mpalrocks/Approximate-Pi">This</a></span></strong> is the source code for the above program.
 			</p>
 <p>
@@ -16,3 +17,19 @@ Approximating the value of pi using Processing.
 <p>
 			   	This <strong><span style="color:black"><a href="http://www.physics.ohio-state.edu/%7Eorban/math_coding/pi_graphical/index.html">article</a></span></strong> inspired me a lot.
 			</p>            
+
+
+## Shoot The Ball
+
+A game developed using Processing and implemented the idea of processing.js. Here is the game below. You have to shoot the ball by tapping on it. Number of balls popped in 30s will be counted. Desktop site is recommended. 53 is my highest score :p . Do give a try! Beat me!
+
+			<meta charset="utf-8" />
+		
+		<script src="./processing.js"></script>
+
+
+		<canvas id="PopGame" data-processing-sources="PopGame.pde" 
+		width="500" height="500">
+	<p>Your browser does not support the canvas tag.</p>
+	<!-- Note: you can put any alternative content here. -->
+</canvas> 			
