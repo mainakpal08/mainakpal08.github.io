@@ -31,13 +31,13 @@ A nodejs app deployed on Heroku aiming to help beginners finding Open Source pro
 			   	 <strong><span style="color:black"><a href="https://cloud-mpal.herokuapp.com/">Here</a></span></strong> is the demo version.
 			</p>
 
-## Julie
+## Mosom
 
 <p>[ <i>August'18</i> ]</p>
 
 A weather forecast app built in PyQt.
 <p>
-			   	 <strong><span style="color:black"><a href="https://github.com/mpalrocks/Julie">This</a></span></strong> is the source code for the above program.
+			   	 <strong><span style="color:black"><a href="https://github.com/mpalrocks/Mosom">This</a></span></strong> is the source code for the above program.
 			</p>
 
 ## [Py]Scanner
