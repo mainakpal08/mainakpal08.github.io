@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <base target="_blank">
+  <!--<base target="_blank">-->
   <title>Mainak Pal</title>
   
   <meta name="author" content="Mainak Pal">
@@ -184,8 +184,8 @@
                   <div class="paper" id="xai2020">
                     <a href="#xaiproj">project</a> /
                     <a href="https://doi.org/10.1007/978-3-030-64949-4_13">paper</a> /
-                      <a href="javascript:toggleblock('xai_abs')">abstract</a> / 
-                      <a href="javascript:toggleblock('xai_bib')">bibtex</a>
+                      <a class="tog" href="javascript:toggleblock('xai_abs')">abstract</a> / 
+                      <a class="tog" href="javascript:toggleblock('xai_bib')">bibtex</a>
                       <p align="justify">
                         <i id="xai_abs">
                             Deep learning has extensively helped us to analyze complicated distributions of data and extract meaningful information from the same. But the fundamental problem still remains—what if there is no or rare occurrence of any instance which needs to be predicted? This is a significant problem in the health-care sector. The primary motivation of the work is to detect the region of anomaly in the context of breast cancer detection. The novelty here lies in designing a zero-shot learning induced Generative Adversarial Network (GAN) based architecture which has the efficacy to detect anomaly and thereby to discriminate the healthy and anomalous images even if the network is trained with the healthy instances only. In addition, this work has also been extended to segmentation of the anomalous region. To be precise, the novelty of this approach lies in the fact that the GAN takes only healthy samples in the training phase, though it is capable of segmenting tumors in the “unseen” anomalous samples explaining each pixel’s contribution to the model’s prediction. Experiments have been conducted on the mini MIAS breast cancer dataset and significantly appreciable results have been obtained. 
@@ -252,8 +252,8 @@
               <div class="paper" id="Gune2020">
                 <a href="#zslproj">project</a> /
                 <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> /
-                  <a href="javascript:toggleblock('zsl_abs')">abstract</a> / 
-                  <a href="javascript:toggleblock('zsl_bib')">bibtex</a>
+                  <a class="tog" href="javascript:toggleblock('zsl_abs')">abstract</a> / 
+                  <a class="tog" href="javascript:toggleblock('zsl_bib')">bibtex</a>
                   <p align="justify">
                     <i id="zsl_abs">
                         Zero-shot Learning (ZSL) is a transfer learning technique which aims at transferring knowledge from seen classes to unseen classes. This knowledge transfer is possible because of underlying semantic space which is common to seen and unseen classes. Most existing approaches learn a projection function using labelled seen class data which maps visual data to semantic data. In this work, we propose a shallow but effective neural network-based model for learning such a projection function which aligns the visual and semantic data in the latent space while simultaneously making the latent space embeddings discriminative. As the above projection function is learned using the seen class data, the so-called projection domain shift exists. We propose a transductive approach to reduce the effect of domain shift, where we utilize unlabeled visual data from unseen classes to generate corresponding semantic features for unseen class visual samples. While these semantic features are initially generated using a conditional variational auto-encoder, they are used along with the seen class data to improve the projection function. We experiment on both inductive and transductive setting of ZSL and generalized ZSL and show superior performance on standard benchmark datasets AWA1, AWA2, CUB, SUN, FLO, and APY. We also show the efficacy of our model in the case of extremely less labelled data regime on different datasets in the context of ZSL. 
@@ -309,8 +309,8 @@
                 <div class="paper" id="Pal2020">
                     <a href="#vqcproj">project</a> /
                     <a href="https://github.com/etce-ju/VQC">code</a> /
-                    <a href="javascript:toggleblock('vqc_abs')">abstract</a> / 
-                    <a href="javascript:toggleblock('vqc_bib')">bibtex</a> / 
+                    <a class="tog" href="javascript:toggleblock('vqc_abs')">abstract</a> / 
+                    <a class="tog" href="javascript:toggleblock('vqc_bib')">bibtex</a> / 
                     <a href="https://drive.google.com/file/d/1KCOsM-hCYFDJYhmTTszM-GrDOaL3W5Cg/view?usp=sharing">presentation</a>
                     <p align="justify">
                       <i id="vqc_abs">
@@ -390,8 +390,8 @@
                 <div class="paper" id="SemEval-2019">
                     <a href="#semproj">project</a> /
                     <a href="https://github.com/NLP-JU/SemEval">code</a> /
-                    <a href="javascript:toggleblock('semeval_abs')">abstract</a> / 
-                    <a href="javascript:toggleblock('semeval_bib')">bibtex</a> 
+                    <a class="tog" href="javascript:toggleblock('semeval_abs')">abstract</a> / 
+                    <a class="tog" href="javascript:toggleblock('semeval_bib')">bibtex</a> 
                     <p align="justify">
                       <i id="semeval_abs">
                           This paper describes our system submissions as part of our participation (team name: JU_ETCE_17_21) in the SemEval 2019 shared task 6: “OffensEval: Identifying and Catego- rizing Offensive Language in Social Media”. We participated in all the three sub-tasks: i) Sub-task A: offensive language identification, ii) Sub-task B: automatic categorization of of- fense types, and iii) Sub-task C: offense target identification. We employed machine learn- ing as well as deep learning approaches for the sub-tasks. We employed Convolutional Neural Network (CNN) and Recursive Neu- ral Network (RNN) Long Short-Term Memory (LSTM) with pre-trained word embeddings. We used both word2vec and Glove pre-trained word embeddings. We obtained the best F1- score using CNN based model for sub-task A, LSTM based model for sub-task B and Lo- gistic Regression based model for sub-task C. Our best submissions achieved 0.7844, 0.5459 and 0.48 F1-scores for sub-task A, sub-task B and sub-task C respectively.
@@ -1034,6 +1034,15 @@
       </td>
     </tr>
   </table>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+  $('a').each(function(){
+        if(!$(this).hasClass('tog')){
+           return $(this).attr('target','_blank');
+        }
+  });
+  </script>
 </body>
 
 </html>
