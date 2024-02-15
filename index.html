@@ -1,5 +1,16 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PZLV8Q1D5D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PZLV8Q1D5D');
+</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <!--<base target="_blank">-->
   <title>Mainak Pal</title>
@@ -11,6 +22,23 @@
   <link rel="icon" type="image/png" href="images/ju.png">
   <script src="scramble.js"></script>
   <script src="hidebib.js" type="text/javascript"></script>
+  <script>
+    // JavaScript to toggle the visibility of more updates and link text
+    function toggleUpdates(event) {
+      // Prevent the default anchor link behavior
+      event.preventDefault();
+    
+      var moreUpdates = document.getElementById("more-updates");
+      var toggleLink = document.getElementById("toggleLink");
+      if (moreUpdates.style.display === "none") {
+        moreUpdates.style.display = "block";
+        toggleLink.innerHTML = "Show Less";
+      } else {
+        moreUpdates.style.display = "none";
+        toggleLink.innerHTML = "Show More...";
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -26,25 +54,25 @@
                 emailScramble = new scrambledString(document.getElementById('email'),
                     'emailScramble', 'c@pnamk..ii80gmalaomal',
                     [20, 13, 8, 4, 2, 1, 6, 7, 19, 3, 17, 12, 11, 14, 15, 5, 10, 9, 21, 22, 16, 18]);
+
               </script> </email>
             
             </p>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:top">
-              <p>I am a final year undergraduate at <a href="http://www.jaduniv.edu.in/">Jadavpur University</a>, majoring in Electronics and Telecommunication Engineering.
-              </p>
               <p>
-                My research interest lies in  Machine Learning and its crossroads in Computer Vision, Computational Neuroscience and Visual Cognition. I am a part of the Artificial Intelligence Laboratory, Jadavpur University, where I am advised by <a href="https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en">Dr. Amit Konar</a>.
+                I am currently pursuing a Ph.D. in Electrical & Computer Engineering with a specialization in Automatic Control at <a href="https://www.purdue.edu">Purdue University</a>, where my research is supervised by <a href="https://scholar.google.com/citations?user=bqIaK90AAAAJ&hl=en">Prof. Vijay Gupta</a>. My work focuses on the development of algorithms to enhance teaming between humans and autonomous systems in uncertain environments. My research interests also include operator learning, bayesian modeling for multi-agent reinforcement learning.
               </p>
+
               <p>
-                Presently, I am working at <a href="https://serre-lab.clps.brown.edu/">Serre Lab, Brown University</a> on behavioral analysis of animal locomotion under <a href="https://vivo.brown.edu/display/tserre">Dr. Thomas Serre</a>. I have been fortunate to work on Zero-shot Learning at <a href="http://www.ee.iitb.ac.in/~viplab/">VIP Lab, IIT Bombay</a> under the kind guidance of <a href="https://biplab-banerjee.github.io/">Dr. Biplab Banerjee</a>. Earlier, I have worked on Natural Language Processing at NLP Lab, JU. Here I was advised by <a href="https://scholar.google.co.in/citations?user=RMJLRiIAAAAJ&hl=en">Dr. Sudip Kumar Naskar</a>.
+                I completed my Bachelor of Engineering in Electronics and Telecommunication Engineering from <a href="http://www.jaduniv.edu.in/">Jadavpur University</a>, Kolkata, India. During my undergraduate, I had worked with <a href="https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en">Dr. Amit Konar</a> on visual cognition. I have interned at Serre Lab, Brown University where I worked on behavioral analysis of worm locomotion, under <a href="https://vivo.brown.edu/display/tserre">Dr. Thomas Serre</a>. Additionally, I worked on Zero-shot Learning at the VIP Lab, IIT Bombay, guided by <a href="https://biplab-banerjee.github.io/">Dr. Biplab Banerjee</a>, and explored Natural Language Processing at the NLP Lab, Jadavpur University, where <a href="https://scholar.google.co.in/citations?user=RMJLRiIAAAAJ&hl=en">Dr. Sudip Kumar Naskar</a> advised me. After graduation, I worked as a Data Scientist at <a href="https://www.tatasteel.com">Tata Steel</a>, leveraging reinforcement learning for process optimization.
               </p>
               <p style="padding:4.5%;text-align:center">
                 <a href="data/MainakPal_Resume.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=J1PE0VYAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://www.linkedin.com/in/mainak-pal-a69566136/"> LinkedIn </a> &nbsp/&nbsp
-                <a href="https://github.com/mpalrocks/"> Github </a>
+                <a href="https://github.com/mainakpal08/"> Github </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -59,15 +87,22 @@
               <heading>Updates</heading>
               <p>
                 <ul id="news">
-                  <li> <i> [Mar 2021]</i>&nbsp; <a href="https://doi.org/10.1007/978-3-030-64949-4_13">paper</a> on Zero-shot breast cancer segmentation is now available online</li>
-                  <li> <i> [May 2020]</i>&nbsp; our <a class="tog" href="#xaiproj">work</a> has been accepted for publication as a book chapter at Interpretable Artificial Intelligence - A Perspective of Granular Computing, Springer-Verlag </li>
-                  <li> <i> [May 2020]</i>&nbsp; <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> of our work on transductive Zero-shot Learning is now available </li>
-                  <li> <i> [Apr 2020]</i>&nbsp; I'll be interning at <a href="https://serre-lab.clps.brown.edu/">Serre Lab, Brown University</a> over Summer 2020 </li>
+                  <li> <i> [Jan 2024]</i>&nbsp; paper on Resilient MARL submitted to IEEE Transactions on Automatic Control.</a></li>
+                  <li> <i> [Aug 2022]</i>&nbsp; Started my PhD in Electrical and Computer Engineering at Purdue University. I will be working with <a href="https://scholar.google.com/citations?user=bqIaK90AAAAJ&hl=en">Prof. Vijay Gupta.</a></li>
+                  <li> <i> [Aug 2021]</i>&nbsp; Joined <a href="https://www.tatasteel.com">Tata Steel</a> as Data Scientist. I will be working with Analytics and Insights Team.</li>
+                  <li> <i> [Jun 2021]</i>&nbsp; Completed my B.E. with 1st Class Honors.</li>
+                  <div id="more-updates" style="display:none;">
+                  <li> <i> [Mar 2021]</i>&nbsp; <a href="https://doi.org/10.1007/978-3-030-64949-4_13">paper</a> on Zero-shot breast cancer segmentation is now available online.</li>
+                  <li> <i> [May 2020]</i>&nbsp; our <a class="tog" href="#xaiproj">work</a> has been accepted for publication as a book chapter at Interpretable Artificial Intelligence - A Perspective of Granular Computing, Springer-Verlag. </li>
+                  <li> <i> [May 2020]</i>&nbsp; <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> of our work on transductive Zero-shot Learning is now available. </li>
+                  <li> <i> [Apr 2020]</i>&nbsp; I'll be interning at <a href="https://serre-lab.clps.brown.edu/">Serre Lab, Brown University</a> over Summer 2020. </li>
                   <li> <i> [Aug 2019]</i>&nbsp; awarded the RUSA 2.0 Travel Grant to present at ICCCMLA-2019, Goa, India </li>
-                  <li> <i> [Jul 2019]</i>&nbsp; <a href="https://link.springer.com/chapter/10.1007%2F978-981-15-3125-5_26">paper</a> on vector quantization clustering accepted at ICCCMLA-2019 </li>
-                  <li> <i> [Mar 2019]</i>&nbsp; I'll be interning at <a href="http://www.ee.iitb.ac.in/~viplab/">VIP Lab</a>, IIT Bombay over Summer 2019 </li>
-                  <li> <i> [Jan 2019]</i>&nbsp; <a href="https://www.aclweb.org/anthology/S19-2118">paper</a> on sentiment analysis accepted at SemEval-2019 </li>
+                  <li> <i> [Jul 2019]</i>&nbsp; <a href="https://link.springer.com/chapter/10.1007%2F978-981-15-3125-5_26">paper</a> on vector quantization clustering accepted at ICCCMLA-2019. </li>
+                  <li> <i> [Mar 2019]</i>&nbsp; I'll be interning at <a href="http://www.ee.iitb.ac.in/~viplab/">VIP Lab</a>, IIT Bombay over Summer 2019. </li>
+                  <li> <i> [Jan 2019]</i>&nbsp; <a href="https://www.aclweb.org/anthology/S19-2118">paper</a> on sentiment analysis accepted at SemEval-2019. </li>
+                </div>
                 </ul>
+                <a href="#" id="toggleLink" onclick="toggleUpdates(event)" style="cursor:pointer;">Show More...</a>
               </p>
             </td>
           </tr>
@@ -79,19 +114,59 @@
           <heading>&nbsp;&nbsp;&nbsp;Research Experience</heading>
 
           <tr>
-            <td width="15%" valign="center" align="center"><img src="images/brown.png" alt="nthu" width="80" height="80"></td>
+            <td width="15%" valign="center" align="center"><img src="images/purdue.png" alt="nthu" width="80" height="80"></td>
             <td width="85%" valign="top">
               <p>
-                <span><strong>Summer Research Intern</strong></span><span style="float:right">May. 2020 - Present</span> <br>
-                <em><a href="https://serre-lab.clps.brown.edu/">Serre Lab</a>, Brown University, USA</em>
+                <span><strong>PhD Student, Graduate Research Assistant</strong></span><span style="float:right">Aug. 2022 - Present</span> <br>
+                <em>Electrical and Computer Engineering, Purdue University, USA</em>
                 <br>
-                Supervisor: <a href="https://vivo.brown.edu/display/tserre"> Dr. Thomas Serre</a>
+                Advisor: <a href="https://scholar.google.com/citations?user=bqIaK90AAAAJ&hl=en">Dr. Vijay Gupta</a>
                 <br>
               </p>
             </td>
           </tr>
 
           <tr>
+            <td width="15%" valign="center" align="center"><img src="images/tatasteel.png" alt="nthu" width="80" height="80"></td>
+            <td width="85%" valign="top">
+              <p>
+                <span><strong>Data Scientist</strong></span><span style="float:right">Aug. 2021 - Aug. 2022</span> <br>
+                <em>Analytics and Insights Team, Tata Steel, Kolkata, India</em>
+                <br>
+                Chief: <a href="https://www.linkedin.com/in/amit-kumar-chatterjee-72792197/?originalSubdomain=in"> Amit Chatterjee</a>
+                <br>
+              </p>
+            </td>
+          </tr>          
+
+
+          <tr>
+            <td width="15%" valign="center" align="center"><img src="images/ju.png" alt="nthu" width="80" height="80"></td>
+            <td width="85%" valign="top">
+              <p>
+                <span><strong>Undergraduate Research Assistant</strong></span><span style="float:right">Apr. 2019 - Jun. 2021</span> <br>
+                <em>Artificial Intelligence Laboratory, Jadavpur University, India</em>
+                <br>
+                Advisor: <a href="https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en"> Dr. Amit Konar</a>
+                <br>
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="15%" valign="center" align="center"><img src="images/brown.png" alt="nthu" width="80" height="80"></td>
+            <td width="85%" valign="top">
+              <p>
+                <span><strong>Summer Research Intern</strong></span><span style="float:right">May. 2020 - Sep. 2020</span> <br>
+                <em><a href="https://serre-lab.clps.brown.edu/">Serre Lab</a>, Brown University, USA</em>
+                <br>
+                Advisor: <a href="https://vivo.brown.edu/display/tserre"> Dr. Thomas Serre</a>
+                <br>
+              </p>
+            </td>
+          </tr>
+
+          <!--<tr>
             <td width="15%" valign="center" align="center"><img src="images/cmu.png" alt="nthu" width="80" height="80"></td>
             <td width="85%" valign="top">
               <p>
@@ -102,20 +177,7 @@
                 <br>
               </p>
             </td>
-          </tr>
-
-          <tr>
-            <td width="15%" valign="center" align="center"><img src="images/ju.png" alt="nthu" width="80" height="80"></td>
-            <td width="85%" valign="top">
-              <p>
-                <span><strong>Undergraduate Research Assistant</strong></span><span style="float:right">Apr. 2019 - Present</span> <br>
-                <em>Artificial Intelligence Laboratory, Jadavpur University, India</em>
-                <br>
-                Supervisor: <a href="https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en"> Dr. Amit Konar</a>
-                <br>
-              </p>
-            </td>
-          </tr>
+          </tr>-->
           <tr>
             <td width="15%" valign="center" align="center"><img src="images/iitb.jpg" alt="mediatek" width="80" height="80"></td>
             <td width="85%" valign="top">
@@ -123,7 +185,7 @@
                 <span><strong>Summer Research Assistant</strong></span><span style="float:right">May. 2019 - Jul. 2019</span> <br>
                 <em><a href="http://www.ee.iitb.ac.in/~viplab/"> VIP Lab</a>, IIT Bombay, India</em>
                 <br>
-                Supervisor: <a href="https://biplab-banerjee.github.io/">Dr. Biplab Banerjee</a>
+                Advisor: <a href="https://biplab-banerjee.github.io/">Dr. Biplab Banerjee</a>
                 <br>
               </p>
             </td>
@@ -135,7 +197,7 @@
                   <span><strong>Undergraduate Research Assistant</strong></span><span style="float:right">Aug. 2018 - May. 2019</span> <br>
                   <em>NLP Lab, Jadavpur University, India</em>
                   <br>
-                  Supervisor: <a href="https://scholar.google.co.in/citations?user=RMJLRiIAAAAJ&hl=en">Dr. Sudip Kumar Naskar</a>
+                  Advisor: <a href="https://scholar.google.co.in/citations?user=RMJLRiIAAAAJ&hl=en">Dr. Sudip Kumar Naskar</a>
                   <br>
                 </p>
               </td>
@@ -152,7 +214,71 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <tr onmouseout="xai_stop()" onmouseover="xai_start()" id="xaipub">
+      
+          <tr onmouseout="marl_stop()" onmouseover="marl_start()" id = "zslpub">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='marl_image'><img src='images/marl_after.png' height="160" width="160"></div>
+                <img src='images/marl_before.png' height="160" width="160">
+              </div>
+              <script type="text/javascript">
+                function marl_start() {
+                  document.getElementById('marl_image').style.opacity = "1";
+                }
+
+                function marl_stop() {
+                  document.getElementById('marl_image').style.opacity = "0";
+                }
+                marl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="#">
+                <papertitle>Resilient Multi-agent Reinforcement Learning with Function Approximation</papertitle>
+              </a>
+              <br>
+              Lintao Ye, Martin Figura, Yixuan Lin, <strong>Mainak Pal</strong>, Pranoy Das, Ji Liu, and Vijay Gupta
+              <br>
+              <p></p>
+              Under review at <em>IEEE Transactions on Automatic Control</em>
+              <div class="paper" id="marl2024">
+                <a class="tog" href="#marlproj">project</a> /
+                <!--<a href="https://doi.org/10.1007/978-3-030-64949-4_13">paper</a> /-->
+                  <a class="tog" href="javascript:toggleblock('marl_abs')">abstract</a> / 
+                  <a href="https://github.com/mainakpal08/Resilient-consensus-based-MARL">code</a>
+                  <!--<a class="tog" href="javascript:toggleblock('marl_bib')">bibtex</a>-->
+                  <p align="justify">
+                    <i id="marl_abs">
+                      Adversarial attacks during training can strongly influence the performance of multi-agent reinforcement learning algorithms. It is, thus, highly desirable to augment existing algorithms such that the impact of adversarial attacks on cooperative networks is at least bounded. We consider a fully decentralized network, where each agent receives a local re- ward and observes the global state and action. We propose a resilient consensus-based actor-critic algorithm, whereby each agent estimates the team-average reward and value function, and communicates the associated parameter vectors to its immediate neighbors. We show that in the presence of Byzantine agents, whose estimation and communication strategies are completely arbitrary, the estimates of the cooperative agents converge to a bounded consensus value with probability one, provided that there are at most H Byzantine agents in the network that is (2H + 1)-robust. Furthermore, we prove that the policy of the cooperative agents converges with probability one to a bounded neighborhood around a stationary point of their team-average objective function under the assumption that the policies of the adversarial agents asymptotically become stationary. 
+                    </i>
+                  </p>
+                  <!--<bibtext xml:space="preserve" id="xai_bib">
+                      @Inbook{Mukherjee2021,<br />
+                        author="Mukherjee, Preeti
+                        and Pal, Mainak
+                        and Ghosh, Lidia
+                        and Konar, Amit",<br />
+                        editor="Pedrycz, Witold
+                        and Chen, Shyi-Ming",<br />
+                        title="A Generative Model Based Approach for Zero-Shot Breast Cancer Segmentation Explaining Pixels' Contribution to the Model's Prediction",<br />
+                        bookTitle="Interpretable Artificial Intelligence: A Perspective of Granular Computing",<br />
+                        year="2021",<br />
+                        publisher="Springer International Publishing",<br />
+                        address="Cham",<br />
+                        pages="401--425",<br />
+                        isbn="978-3-030-64949-4",<br />
+                        doi="10.1007/978-3-030-64949-4_13",<br />
+                        url="https://doi.org/10.1007/978-3-030-64949-4_13"<br />
+                        }
+                        
+                    </bibtext>-->
+                </div>         
+                <script language="JavaScript">hideblock('marl_abs');</script>
+            </td>
+          </tr>         
+
+
+          <tr onmouseout="xai_stop()" onmouseover="xai_start()" id="xaipub">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='xai_image'><img src='images/xai_after.png' height="160" width="160"></div>
@@ -216,64 +342,7 @@
                 </td>
               </tr>
 
-
-
-
-          <tr onmouseout="font_stop()" onmouseover="font_start()" id = "zslpub">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='font_image'><img src='images/zsl_after.png' height="160" width="160"></div>
-                <img src='images/zsl_before.png' height="160" width="160">
-              </div>
-              <script type="text/javascript">
-                function font_start() {
-                  document.getElementById('font_image').style.opacity = "1";
-                }
-
-                function font_stop() {
-                  document.getElementById('font_image').style.opacity = "0";
-                }
-                font_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2005.04492">
-                <papertitle>Generative Model-Driven Structure Aligning Transductive Zero-shot Learning</papertitle>
-              </a>
-              <br>
-              <a href="https://sites.google.com/view/omkargune">Omkar Gune</a>,
-              <strong>Mainak Pal<sup>*</strong>,
-              <a href="https://preeti98.github.io">Preeti Mukherjee<sup>*</a>,
-              <a href="https://biplab-banerjee.github.io/">Biplab Banerjee</a>,
-              <a href="https://scholar.google.co.in/citations?user=84VkdegAAAAJ&hl=en">Subhasis Chaudhuri</a>
-              <br>
-              <p></p>
-              Under review at <em>Journal of Visual Communication and Image Representation, ELSEVIER</em>
-              <div class="paper" id="Gune2020">
-                <a class="tog" href="#zslproj">project</a> /
-                <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> /
-                  <a class="tog" href="javascript:toggleblock('zsl_abs')">abstract</a> / 
-                  <a class="tog" href="javascript:toggleblock('zsl_bib')">bibtex</a>
-                  <p align="justify">
-                    <i id="zsl_abs">
-                        Zero-shot Learning (ZSL) is a transfer learning technique which aims at transferring knowledge from seen classes to unseen classes. This knowledge transfer is possible because of underlying semantic space which is common to seen and unseen classes. Most existing approaches learn a projection function using labelled seen class data which maps visual data to semantic data. In this work, we propose a shallow but effective neural network-based model for learning such a projection function which aligns the visual and semantic data in the latent space while simultaneously making the latent space embeddings discriminative. As the above projection function is learned using the seen class data, the so-called projection domain shift exists. We propose a transductive approach to reduce the effect of domain shift, where we utilize unlabeled visual data from unseen classes to generate corresponding semantic features for unseen class visual samples. While these semantic features are initially generated using a conditional variational auto-encoder, they are used along with the seen class data to improve the projection function. We experiment on both inductive and transductive setting of ZSL and generalized ZSL and show superior performance on standard benchmark datasets AWA1, AWA2, CUB, SUN, FLO, and APY. We also show the efficacy of our model in the case of extremely less labelled data regime on different datasets in the context of ZSL. 
-                    </i>
-                  </p>
-                  <bibtext xml:space="preserve" id="zsl_bib">
-                      @misc{gune2020generative,<br />
-                        title={Generative Model-driven Structure Aligning Discriminative Embeddings for Transductive Zero-shot Learning},<br />
-                        author={Omkar Gune and Mainak Pal and Preeti Mukherjee and Biplab Banerjee and Subhasis Chaudhuri},<br />
-                        year={2020},<br />
-                        eprint={2005.04492},<br />
-                        archivePrefix={arXiv},<br />
-                        primaryClass={cs.CV}<br />
-                    }
-                        
-                    </bibtext>
-                </div>              
-                <script language="JavaScript">hideblock('zsl_bib');hideblock('zsl_abs');</script>
-            </td>
-          </tr>          
+ 
 
           
 
@@ -425,58 +494,68 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Manuscript in preparation</heading>
+            <heading>Technical Reports</heading>
           </td>
         </tr>
       </tbody></table>
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr onmouseout="ts_stop()" onmouseover="ts_start()" id = "vqcman">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='ts_image'><img src='images/time-series.png' height="160" width="160"></div>
-                  <img src='images/time-series.png' height="160" width="160">
-                </div>
-                <script type="text/javascript">
-                  function ts_start() {
-                    document.getElementById('ts_image').style.opacity = "1";
-                  }
-  
-                  function ts_stop() {
-                    document.getElementById('ts_image').style.opacity = "0";
-                  }
-                  ts_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a class="tog" href="#vqcman">
-                  <papertitle>Structure Prediction in a Time-Series Using Vector Quantization Based Clustering</papertitle>
-                </a>
-                <br>
-                <a href="https://preeti98.github.io">Preeti Mukherjee<sup>*</a>
-                <strong>Mainak Pal<sup>*</strong>,
-                <a href="https://scholar.google.co.in/citations?user=s1F23CAAAAAJ&hl=en">Amit Konar</a>
-                <br>
-                <p></p>
-                
-                <!--<div class="paper" id="Gune2020">
-                    <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> /
-                    <a href="javascript:toggleblock('xai_abs')">abstract</a> / 
-                    <a href="javascript:toggleblock('xai_bib')">bibtex</a>
-                    <p align="justify">
-                      <i id="xai_abs">
-                           
-                      </i>
-                    </p>
-                    <bibtext xml:space="preserve" id="xai_bib">
 
-                          
-                      </bibtext>
-                  </div>              
-                  <script language="JavaScript">hideblock('xai_bib');hideblock('xai_abs');</script>-->
-              </td>
-            </tr>
+        <tr onmouseout="font_stop()" onmouseover="font_start()" id = "zslpub">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='font_image'><img src='images/zsl_after.png' height="160" width="160"></div>
+              <img src='images/zsl_before.png' height="160" width="160">
+            </div>
+            <script type="text/javascript">
+              function font_start() {
+                document.getElementById('font_image').style.opacity = "1";
+              }
 
+              function font_stop() {
+                document.getElementById('font_image').style.opacity = "0";
+              }
+              font_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2005.04492">
+              <papertitle>Generative Model-Driven Structure Aligning Transductive Zero-shot Learning</papertitle>
+            </a>
+            <br>
+            <a href="https://sites.google.com/view/omkargune">Omkar Gune</a>,
+            <strong>Mainak Pal<sup>*</strong>,
+            <a href="https://preeti98.github.io">Preeti Mukherjee<sup>*</a>,
+            <a href="https://biplab-banerjee.github.io/">Biplab Banerjee</a>,
+            <a href="https://scholar.google.co.in/citations?user=84VkdegAAAAJ&hl=en">Subhasis Chaudhuri</a>
+            <br>
+            <p></p>
+            <em>Arxiv, 2020</em>
+            <div class="paper" id="Gune2020">
+              <a class="tog" href="#zslproj">project</a> /
+              <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> /
+                <a class="tog" href="javascript:toggleblock('zsl_abs')">abstract</a> / 
+                <a class="tog" href="javascript:toggleblock('zsl_bib')">bibtex</a>
+                <p align="justify">
+                  <i id="zsl_abs">
+                      Zero-shot Learning (ZSL) is a transfer learning technique which aims at transferring knowledge from seen classes to unseen classes. This knowledge transfer is possible because of underlying semantic space which is common to seen and unseen classes. Most existing approaches learn a projection function using labelled seen class data which maps visual data to semantic data. In this work, we propose a shallow but effective neural network-based model for learning such a projection function which aligns the visual and semantic data in the latent space while simultaneously making the latent space embeddings discriminative. As the above projection function is learned using the seen class data, the so-called projection domain shift exists. We propose a transductive approach to reduce the effect of domain shift, where we utilize unlabeled visual data from unseen classes to generate corresponding semantic features for unseen class visual samples. While these semantic features are initially generated using a conditional variational auto-encoder, they are used along with the seen class data to improve the projection function. We experiment on both inductive and transductive setting of ZSL and generalized ZSL and show superior performance on standard benchmark datasets AWA1, AWA2, CUB, SUN, FLO, and APY. We also show the efficacy of our model in the case of extremely less labelled data regime on different datasets in the context of ZSL. 
+                  </i>
+                </p>
+                <bibtext xml:space="preserve" id="zsl_bib">
+                    @misc{gune2020generative,<br />
+                      title={Generative Model-driven Structure Aligning Discriminative Embeddings for Transductive Zero-shot Learning},<br />
+                      author={Omkar Gune and Mainak Pal and Preeti Mukherjee and Biplab Banerjee and Subhasis Chaudhuri},<br />
+                      year={2020},<br />
+                      eprint={2005.04492},<br />
+                      archivePrefix={arXiv},<br />
+                      primaryClass={cs.CV}<br />
+                  }
+                      
+                  </bibtext>
+              </div>              
+              <script language="JavaScript">hideblock('zsl_bib');hideblock('zsl_abs');</script>
+          </td>
+        </tr>   
 
 
         </tbody></table>
@@ -490,6 +569,162 @@
         </tr>
       </tbody></table>
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+        <tr onmouseout="no_proj_stop()" onmouseover="no_proj_start()" id="noproj">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='no_proj_image'><img src='images/project.png' height="160" width="160"></div>
+              <img src='images/project.png' height="160" width="160">
+            </div>
+            <script type="text/javascript">
+              function no_proj_start() {
+                document.getElementById('no_proj_image').style.opacity = "1";
+              }
+
+              function no_proj_stop() {
+                document.getElementById('no_proj_image').style.opacity = "0";
+              }
+              no_proj_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a class="tog" href="#noproj">
+              <papertitle>Operator Learning for Robust Reinforcement Learning</papertitle>
+            </a>
+            <br>
+            Dec'23 - Present
+            <br>
+            <br>
+            Trained a neural operator to solve the Hamilton-Jacobi-Bellman (HJB) equation, where the solution effectively maps from the state functional space to the action functional space. By experimenting on a perturbed system, we analyzed the performance of the adapted policy, demonstrating the robustness and adaptability of our approach. Furthermore, we are extending this methodology to simultaneously solve the HJB and Fokker-Planck (FP) equations within a coupled system, aiming to provide a comprehensive solution that addresses both the optimization and the probabilistic dynamics of the system.
+            <br>
+            <p></p>
+            <strong>Supervisor: <a href="https://scholar.google.com/citations?user=bqIaK90AAAAJ&hl=en">Dr. Vijay Gupta</a></strong>
+            
+            <br>
+            <p></p>
+            
+            <!--<div class="paper" id="Gune2020">
+                <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> /
+                <a href="javascript:toggleblock('xai_abs')">abstract</a> / 
+                <a href="javascript:toggleblock('xai_bib')">bibtex</a>
+                <p align="justify">
+                  <i id="xai_abs">
+                       
+                  </i>
+                </p>
+                <bibtext xml:space="preserve" id="xai_bib">
+
+                      
+                  </bibtext>
+              </div>              
+              <script language="JavaScript">hideblock('xai_bib');hideblock('xai_abs');</script>-->
+          </td>
+        </tr>
+
+
+        <tr onmouseout="hat_proj_stop()" onmouseover="hat_proj_start()" id="hatproj">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='hat_proj_image'><img src='images/project.png' height="160" width="160"></div>
+              <img src='images/project.png' height="160" width="160">
+            </div>
+            <script type="text/javascript">
+              function hat_proj_start() {
+                document.getElementById('hat_proj_image').style.opacity = "1";
+              }
+
+              function hat_proj_stop() {
+                document.getElementById('hat_proj_image').style.opacity = "0";
+              }
+              hat_proj_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a class="tog" href="#hatproj">
+              <papertitle>Procative Team Support in Human Robot Teaming</papertitle>
+            </a>
+            <br>
+            Aug'22 - Present
+            <br>
+            <br>
+            Designed a Bayesian Model for intention prediction in Human-Robot teams, focusing on developing policies for the assistive robot based on inferred intentions. Currently working on extending the model to work seamlessly in team settings.
+            <br>
+            <p></p>
+            <strong>Supervisor: <a href="https://scholar.google.com/citations?user=bqIaK90AAAAJ&hl=en">Dr. Vijay Gupta</a></strong>
+            
+            <br>
+            <p></p>
+            
+            <!--<div class="paper" id="Gune2020">
+                <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> /
+                <a href="javascript:toggleblock('xai_abs')">abstract</a> / 
+                <a href="javascript:toggleblock('xai_bib')">bibtex</a>
+                <p align="justify">
+                  <i id="xai_abs">
+                       
+                  </i>
+                </p>
+                <bibtext xml:space="preserve" id="xai_bib">
+
+                      
+                  </bibtext>
+              </div>              
+              <script language="JavaScript">hideblock('xai_bib');hideblock('xai_abs');</script>-->
+          </td>
+        </tr>
+
+
+        <tr onmouseout="marl_proj_stop()" onmouseover="marl_proj_start()" id="marlproj">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='marl_proj_image'><img src='images/marl_before.png' height="160" width="160"></div>
+              <img src='images/marl_after.png' height="160" width="160">
+            </div>
+            <script type="text/javascript">
+              function marl_proj_start() {
+                document.getElementById('marl_proj_image').style.opacity = "1";
+              }
+
+              function marl_proj_stop() {
+                document.getElementById('marl_proj_image').style.opacity = "0";
+              }
+              marl_proj_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a class="tog" href="#marlproj">
+              <papertitle>Resilient Multi-agent Reinforcement Learning with Function Approximation</papertitle>
+            </a>
+            <br>
+            Aug'23 - Jan'24
+            <br>
+            <br>
+            Worked on the development of a resilient consensus-based actor-critic algorithm, specifically designed to mitigate the adverse effects of Byzantine agents within cooperative networks in the context of multi-agent reinforcement learning. This involved enhancing the simulation framework to facilitate comparisons with the current state-of-the-art methodologies, thereby ensuring a comprehensive evaluation of the algorithm's efficacy in maintaining network integrity and performance under adversarial conditions.
+            <br>
+            <p></p>
+            <strong>Supervisor: <a href="https://scholar.google.com/citations?user=bqIaK90AAAAJ&hl=en">Dr. Vijay Gupta</a></strong>
+            
+            <br>
+            <p></p>
+            
+            <!--<div class="paper" id="Gune2020">
+                <a href="https://arxiv.org/pdf/2005.04492.pdf">preprint</a> /
+                <a href="javascript:toggleblock('xai_abs')">abstract</a> / 
+                <a href="javascript:toggleblock('xai_bib')">bibtex</a>
+                <p align="justify">
+                  <i id="xai_abs">
+                       
+                  </i>
+                </p>
+                <bibtext xml:space="preserve" id="xai_bib">
+
+                      
+                  </bibtext>
+              </div>              
+              <script language="JavaScript">hideblock('xai_bib');hideblock('xai_abs');</script>-->
+          </td>
+        </tr>
 
         <tr onmouseout="bci_stop()" onmouseover="bci_start()" id="bciproj">
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -513,7 +748,7 @@
               <papertitle>Data augmentation using GAN to improve Generalizability and Robustness of Finger-Induced Motor Imagery Classification</papertitle>
             </a>
             <br>
-            Feb'21 - Present
+            Aug'20 - May'21
             <br>
             <br>
             Developed a generative network to generate synthetic fNIRS data that are very similar to original data. Designed an end-to-end paradigm to perform classification based on the image biomarkers for finger tapping tasks.
@@ -565,10 +800,10 @@
                   <papertitle>Automatic behavioral analysis of C.Elegans locomotion</papertitle>
                 </a>
                 <br>
-                May'20 - Present
+                May'20 - Sep'20
                 <br>
                 <br>
-                Working on various recurrent neural models to automate behavioral analysis of C.Elegans locomotion.
+                Worked on various recurrent neural models and autoregressive models to automate behavioral analysis of C.Elegans locomotion.
                 <br>
                 <p></p>
                 <strong>Supervisor: <a href="https://vivo.brown.edu/display/tserre"> Dr. Thomas Serre</strong>
@@ -1021,7 +1256,7 @@
             <td style="padding:0px">
               <br>
               <p style="text-align:left;font-size:small;">
-                  Updated on: 20th July, 2021
+                  Updated on: 15th Feb, 2024
     
               <span style="float:right;">
                 Thanks, <a href="https://jonbarron.info/">Jon Barron</a>!
